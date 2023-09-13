@@ -4,34 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
     <style>
         body {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Roboto Slab', serif;
             background-color: #f2f2f2;
         }
-        .container {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-            width: 300px;
-            margin: 0 auto;
-            margin-top: 100px;
+        body {
+            background-image: url("pictures/reg2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
-        .container h2 {
+        
+        .container {
+            font-family: 'Roboto Slab', serif;
+            background-color: #66b9a6;
+            padding: 300px;
+            border-radius: 100px;
+            box-shadow: 20 30 10px rgb(255, 255, 255);
+            width: 300px;
+            margin:  auto;
+            margin-top: 20px;
+        }
+          .container h2 {
             text-align: center;
         }
         .form-group {
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
         .form-group label {
             font-weight: bold;
         }
         .form-group input {
-            width: 90%;
+            width: 100%;
             padding: 10px;
             border: 1px solid #ccc;
-            border-radius: 4px;
+            border-radius: 15px;
         }
         .form-group button {
             background-color: #007bff;
@@ -46,9 +55,12 @@
      <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Registration Form</h2>
-        <form id="registrationForm">
+        <div class="container">
+            <div class="gradient-text">
+        Registration Form
+        </div>
+            <form id="registrationForm">
+                <br><br>
             <div class="form-group">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -90,5 +102,6 @@
             alert(`Name: ${name}\nMobile Number: ${mobile}\nGmail: ${email}`);
         });
     </script>
+   
 </body>
 </html>
