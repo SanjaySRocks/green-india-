@@ -1,0 +1,101 @@
+font-family: 'Roboto Slab', serif;
+body {
+    background-image: url('pictures/gindia.jpg');
+    background-size: cover; /* Optional: Scale the image to cover the entire element */
+    background-repeat: no-repeat; /* Optional: Prevent the image from repeating */
+    background-attachment: fixed; /* Optional: Fix the background in place */
+        h1 {
+          color: green;
+        }   
+}
+
+.responsive-button {
+    background-color: #3498db;
+    color: #fff;
+    border: 1px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto Slab', serif;
+}
+.responsive-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Optional: Makes the container take up the full viewport height */
+}
+/* Hover effect */
+.responsive-button{
+    background-color: #2980b9;
+}
+
+
+/* CSS */
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
