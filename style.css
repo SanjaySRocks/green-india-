@@ -29,9 +29,6 @@ body {
 .responsive-button{
     background-color: #2980b9;
 }
-
-
-/* CSS */
 .button-85 {
   padding: 0.6em 2em;
   border: none;
@@ -176,3 +173,4 @@ body {
 	transform: rotate(360deg);
 	}
 }
+

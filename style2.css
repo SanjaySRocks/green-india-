@@ -40,3 +40,11 @@ button {
 button:hover {
     background-color: #45a049;
 }
+body {
+    background-image: url('pictures/about.jpeg');
+    background-size: cover; /* Optional: Scale the image to cover the entire element */
+    background-repeat: no-repeat; /* Optional: Prevent the image from repeating */
+    background-attachment: fixed; /* Optional: Fix the background in place */
+  }
+  
+  

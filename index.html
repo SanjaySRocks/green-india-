@@ -6,6 +6,23 @@
     <title>Green India </title>
     <link rel="stylesheet" type="text/css" href="style.css">
        <style>
+        .navbar {
+            background-color: #0a4756; /* Background color */
+            overflow: hidden; /* Clear floats */
+        }
+        .navbar a {
+            float: right; /* Float the links to the left */
+            display: block; /* Display them as block elements */
+            color: white; /* Text color */
+            text-align: center; /* Center-align text */
+            padding: 25px 25px; /* Add padding to the links */
+            text-decoration: none; /* Remove underlines from links */
+        }
+        .navbar a:hover {
+            background-color: #ddd; /* Background color on hover */
+            color: black; /* Text color on hover */
+        }
+
         body {
             background-image: url("pictures/gindia.jpg");
             background-size: cover;
@@ -25,7 +42,13 @@
         }  
     </style>
 </head>
-<body>                      
+<body>   
+    <div class="navbar">
+        <a href="#contact">Contact</a>
+        <a href="regiform.html">Registration Form</a>
+        <a href="about.html">About</a>
+        <a href="index.html">Home</a>     
+    </div>                
     <h1><u>INDIA</u></h1>
     <div class="responsive-button">
         <div class="wheel">
