@@ -1,4 +1,4 @@
-font-family: 'Roboto Slab', serif;
+<font-family> 'Roboto Slab', serif;
 body {
     background-image: url('pictures/gindia.jpg');
     background-size: cover; /* Optional: Scale the image to cover the entire element */

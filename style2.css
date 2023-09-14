@@ -1,19 +1,19 @@
 font-family: 'Roboto Slab', serif;
 body {
     background-image: url('pictures/reg2.jpg');
-    background-size: cover; /* Optional: Scale the image to cover the entire element */
-    background-repeat: no-repeat; /* Optional: Prevent the image from repeating */
-    background-attachment: fixed; /* Optional: Fix the background in place */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 .gradient-text {
     text-align: center;
-    font-size: 40px; /* Set your desired font size */
-    background: linear-gradient(to right, #c22d2d, #c5f5d0,#0b7124); /* Define your gradient colors and direction */
-    -webkit-background-clip: text; /* Clip the background to the text */
+    font-size: 40px; 
+    background: linear-gradient(to right, #d77207, #c5f5d0,#07611d); 
+    -webkit-background-clip: text;
     background-clip: text;
-    color: transparent; /* Make the text color transparent */
+    color: transparent; 
     font-family: 'Roboto Slab', serif;
-    -webkit-text-stroke: 1px #000; /* Create a 2px black border around the text for webkit browsers (e.g., Chrome, Safari) */
+    -webkit-text-stroke: 1px #000; 
     text-stroke: 100% #b41919;
 }
 .upload-container {
@@ -42,9 +42,9 @@ button:hover {
 }
 body {
     background-image: url('pictures/about.jpeg');
-    background-size: cover; /* Optional: Scale the image to cover the entire element */
-    background-repeat: no-repeat; /* Optional: Prevent the image from repeating */
-    background-attachment: fixed; /* Optional: Fix the background in place */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
   }
   
   
