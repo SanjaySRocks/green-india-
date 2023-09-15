@@ -1,8 +1,8 @@
-function checkName(name)
-{
-    const alphabetOnlyRegex = /^[A-Za-z]+$/;
-    return alphabetOnlyRegex.test(name);
-}
+// function checkName(name)
+// {
+//     const alphabetOnlyRegex = /^[A-Za-z]+$/;
+//     return alphabetOnlyRegex.test(name);
+// }
 
 // Get a reference to the button element by its id
 var downloadButton = document.getElementById("downloadbtn");
@@ -10,8 +10,10 @@ var inputName = document.getElementById("name");
 
 downloadButton.addEventListener("click", function() {
     
-    if(!checkName(inputName.value))
-        return alert("Invalid Name");
+    var name = inputName.value.trim();
+
+    if(!name)
+      return alert("Invalid Name");
 
     const baseURL = "http://64.225.85.95:3000"
     const genURL = baseURL+'/generate/'+inputName.value;
