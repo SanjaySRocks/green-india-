@@ -13,7 +13,7 @@ downloadButton.addEventListener("click", function() {
     if(!checkName(inputName.value))
         return alert("Invalid Name");
 
-    const baseURL = "http://localhost:3000"
+    const baseURL = "http://64.225.85.95:3000"
     const genURL = baseURL+'/generate/'+inputName.value;
     
     fetch(genURL).then(response => {
