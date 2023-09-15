@@ -1,0 +1,50 @@
+font-family: 'Roboto Slab', serif;
+body {
+    background-image: url('pictures/reg2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+.gradient-text {
+    text-align: center;
+    font-size: 40px; 
+    background: linear-gradient(to right, #d77207, #c5f5d0,#07611d); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+    font-family: 'Roboto Slab', serif;
+    -webkit-text-stroke: 1px #000; 
+    text-stroke: 100% #b41919;
+}
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: 50px auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+body {
+    background-image: url('pictures/about.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+  }
+  
+  
