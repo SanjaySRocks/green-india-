@@ -888,7 +888,7 @@ a:focus {
 
 .info_section .contact_section input.message-box {
   height: 135px;
-  border-radius: 25px;
+  border-radius: 4px;
 }
 
 .info_section .contact_section button {
@@ -918,6 +918,7 @@ a:focus {
 
 .info_section .img-box img {
   width: 100%;
+  border-radius: 6px;
 }
 
 /* footer section*/
