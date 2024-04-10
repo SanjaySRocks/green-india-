@@ -21,7 +21,7 @@ form.addEventListener('submit', function (e) {
 
     btn.innerText = "Processing...";
 
-    fetch('https://cg.nileshvishwa.com/generate', 
+    fetch('https://cg.api.projects.sanjay.amsgamers.xyz/generate', 
         {
             method: 'POST',
             headers: {
@@ -49,7 +49,7 @@ form.addEventListener('submit', function (e) {
                 icon: "success"
             });
 
-            var downloadTab = window.open(`https://cg.nileshvishwa.com/download/${data.CertificateDetails._id}.pdf`, '_blank');
+            var downloadTab = window.open(`https://cg.api.projects.sanjay.amsgamers.xyz/download/${data.CertificateDetails._id}.pdf`, '_blank');
             setTimeout(function() {
                 downloadTab.close();
               }, 5000);
